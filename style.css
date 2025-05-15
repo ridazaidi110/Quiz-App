@@ -49,3 +49,25 @@ button:hover {
 #next-button:hover {
     background-color: #007bb5;
 }
+@media (max-width: 400px) {
+    .quiz-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #question {
+        font-size: 16px;
+    }
+}
+
+
+
